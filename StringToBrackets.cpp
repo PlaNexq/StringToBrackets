@@ -18,7 +18,6 @@ string stringToBrackets (string in) {
 		c = tolower(c);
 		m[c]++;
 	}
-	cout << in << endl;
 
 	//convert each character based on its count
 	for (char c : in){
